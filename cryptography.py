@@ -1,7 +1,7 @@
 """
 cryptography.py
 Author: Morgan Meliment
-Credit: <list sources used, if any>
+Credit: none
 
 Assignment:
 
@@ -45,5 +45,30 @@ elif start == "e":
             newin = newin % 85
         encr.append(associations[newin])
     print("".join(x for x in encr))
+elif start == "d":
+    emes = input("Message: ")
+    key = input("Key: ")
+    editkey = repeatkey(emes, key)
+    encr = []
+    isn = 0
+    for q in emes:
+        ind = associations.find(q)
+        twoind = associations.find(editkey[isn])
+        isn += 1
+        newin = ind - twoind
+        if newin < 0:
+            newin = newin + 85
+        encr.append(associations[newin])
+    print("".join(x for x in encr))
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
         
