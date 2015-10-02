@@ -42,7 +42,7 @@ elif start == "e":
         isn += 1
         newin = ind + twoind
         if newin > 84:
-            newin = newin - 85
+            newin = newin % 85
         encr.append(associations[newin])
     print("".join(x for x in encr))
 elif start == "d":
