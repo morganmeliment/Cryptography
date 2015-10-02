@@ -41,9 +41,9 @@ elif start == "e":
         twoind = associations.find(editkey[isn])
         isn += 1
         newin = ind + twoind
-        if newin > 85:
-            newin = newin % 85
-        encr.append(associations[newin - 1])
+        if newin > 84:
+            newin = newin - 85
+        encr.append(associations[newin])
     print("".join(x for x in encr))
 elif start == "d":
     emes = input("Message: ")
