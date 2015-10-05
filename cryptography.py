@@ -23,8 +23,7 @@ def repeatkey(mlen, klen):
         return("".join(x for x in time) + klen[0:diff])
     elif len(mlen) < len(klen):
         return(klen[0:len(mlen)])
-tare = true
-while tare:
+while True:
     associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
     start = input("Enter e to encrypt, d to decrypt, or q to quit: ")
     if start != "e" and start != "d" and start != "q":
