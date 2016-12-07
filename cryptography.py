@@ -4,7 +4,7 @@ Author: Morgan Meliment
 Credit: none
 
 Assignment:
-
+andreandreand, ao3Og2PvO4q35 = bXXXXXXXXXXXX = baz(3-d)(O-r)X(2-a)XX(O-e)X(q-a)XX
 Write and submit a program that encrypts and decrypts user data.
 
 See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptography/blob/master/README.md
